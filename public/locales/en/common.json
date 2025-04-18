@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "React TypeScript Tailwind App",
+    "subtitle": "A modern React application"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "home": {
+    "welcome": "Welcome to the Home Page",
+    "description": "This is a public page that anyone can access"
+  },
+  "unauthorized": {
+    "code": "401",
+    "title": "Unauthorized Access",
+    "description": "You don't have permission to access this page",
+    "home": "Return to Home"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved",
+    "home": "Return to Home"
+  },
+  "example": {
+    "title": "Example Component",
+    "description": "This is a development-only example page for testing and development purposes",
+    "dev": "This page is only available in the development environment",
+    "back": "Back to Home"
+  },
+  "language": {
+    "switcher": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese"
+  },
+  "user": {
+    "details": "User Information",
+    "viewingUser": "You are viewing user with ID: {{id}}",
+    "idNote": "User IDs are used to uniquely identify users in the system"
+  }
+}

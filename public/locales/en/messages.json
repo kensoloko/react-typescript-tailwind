@@ -1,0 +1,9 @@
+{
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "close": "Close",
+    "cancel": "Cancel",
+    "ok": "OK"
+}

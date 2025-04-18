@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Generated files
+*.generated.ts
+*.generated.tsx
+*.generated.js
+*.generated.jsx
+
+# Large files
+*.log
+*.mp4
+*.zip
+*.tar.gz
+*.tgz
+
+# Build artifacts
+coverage/
+.nyc_output/
+.tscache/
+.rts2_cache*/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local 

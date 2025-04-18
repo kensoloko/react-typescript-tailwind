@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.scss'
+import { BrowserRouter, useRoutes } from 'react-router-dom'
+import { AuthProvider } from './context/AuthContext'
+import { Suspense } from 'react'
+import routes from './routes/routes'
+import './i18n/i18nInit' // Import the i18n configuration
+import LanguageSwitcher from './components/language-switcher/LanguageSwitcher'
+import ScreenLoader from './components/screen-loader/ScreenLoader'
+import PageTitle from './components/page-title/PageTitle'
 
-function App() {
-  const [count, setCount] = useState(0)
+const AppRoutes = () => {
+  const routeElements = useRoutes(routes);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="fixed top-4 right-4 z-50">
+        <LanguageSwitcher />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <PageTitle />
+      {routeElements}
     </>
+  )
+}
+
+function App() {
+  return (
+    <Suspense fallback={<ScreenLoader />}>
+      <BrowserRouter>
+        <AuthProvider>
+          <AppRoutes />
+        </AuthProvider>
+      </BrowserRouter>
+    </Suspense>
   )
 }
 

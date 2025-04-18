@@ -1,0 +1,10 @@
+{
+    "default": "React App",
+    "login": "Đăng nhập",
+    "example": "Ví dụ",
+    "notFound": "Không tìm thấy trang",
+    "unauthorized": "Không có quyền truy cập",
+    "home": "Trang chủ",
+    "dashboard": "Bảng điều khiển",
+    "userDetail": "Thông tin người dùng"
+}

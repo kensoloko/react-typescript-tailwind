@@ -1,0 +1,10 @@
+{
+    "default": "React App",
+    "login": "Login",
+    "example": "Example",
+    "notFound": "Not Found",
+    "unauthorized": "Unauthorized",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "userDetail": "User Detail"
+}
