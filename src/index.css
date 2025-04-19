@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import "tailwindcss";
+@import './styles/scrollbar.css';
 
 html {
     box-sizing: border-box;
@@ -12,7 +13,11 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    min-height: 100dvh;
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: calc(100% - 100vw);
+    margin-right: 0;
 }

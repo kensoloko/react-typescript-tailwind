@@ -3,6 +3,7 @@ import ProtectedRoute from './ProtectedRoute';
 import { withSuspense } from './routeUtils';
 import * as LazyComponents from './lazyRoutes';
 import { TFunction } from 'i18next';
+import { Storybook } from './lazyRoutes';
 
 type AppRouteObject = RouteObject & {
   titleKey?: string;
@@ -48,5 +49,14 @@ export const protectedRoutes: AppRouteObject[] = [
 
 // Combine all routes
 const routes: AppRouteObject[] = [...publicRoutes, ...protectedRoutes];
+
+// Add development-only routes
+if (import.meta.env.DEV && Storybook) {
+  routes.push({
+    path: '/storybook',
+    element: <Storybook />,
+    titleKey: 'storybook.title'
+  });
+}
 
 export default routes;

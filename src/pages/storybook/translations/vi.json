@@ -1,0 +1,90 @@
+{
+  "title": "Thư viện thành phần",
+  "description": "Bộ sưu tập các thành phần giao diện để sử dụng trong ứng dụng của bạn",
+  "banner": {
+    "devModeOnly": "Trang này chỉ khả dụng trong chế độ phát triển",
+    "backToApp": "Quay lại ứng dụng"
+  },
+  "tabs": {
+    "elements": "Phần tử UI",
+    "buttons": "Nút",
+    "toasts": "Thông báo"
+  },
+  "elements": {
+    "title": "Phần tử UI",
+    "description": "Các khối xây dựng cơ bản cho giao diện của bạn",
+    "card": {
+      "title": "Thẻ",
+      "basic": "Thẻ cơ bản",
+      "basicDescription": "Container đơn giản với bóng",
+      "bordered": "Thẻ có viền",
+      "borderedDescription": "Thẻ có viền và bóng"
+    },
+    "input": {
+      "title": "Trường nhập liệu",
+      "text": "Ô nhập văn bản",
+      "select": "Ô chọn",
+      "placeholder": "Nhập một số văn bản",
+      "option1": "Lựa chọn 1",
+      "option2": "Lựa chọn 2",
+      "option3": "Lựa chọn 3"
+    }
+  },
+  "buttons": {
+    "title": "Nút",
+    "description": "Các phần tử tương tác cho hành động của người dùng",
+    "variants": {
+      "title": "Biến thể nút",
+      "primary": "Chính",
+      "secondary": "Phụ",
+      "tertiary": "Thứ cấp",
+      "danger": "Nguy hiểm",
+      "success": "Thành công"
+    },
+    "sizes": {
+      "title": "Kích thước nút",
+      "small": "Nhỏ",
+      "medium": "Trung bình",
+      "large": "Lớn"
+    },
+    "states": {
+      "title": "Trạng thái nút",
+      "default": "Mặc định",
+      "disabled": "Vô hiệu hóa",
+      "withIcon": "Có biểu tượng",
+      "loading": "Đang tải"
+    }
+  },
+  "toasts": {
+    "title": "Thông báo Toast",
+    "description": "Thông báo tạm thời để cung cấp phản hồi",
+    "types": {
+      "title": "Loại thông báo",
+      "showSuccess": "Hiện thành công",
+      "showError": "Hiện lỗi",
+      "showWarning": "Hiện cảnh báo",
+      "showInfo": "Hiện thông tin"
+    },
+    "positions": {
+      "title": "Vị trí thông báo",
+      "description": "Thông báo có thể hiển thị ở các vị trí khác nhau trên màn hình",
+      "topLeft": "Trên bên trái",
+      "topCenter": "Trên giữa",
+      "topRight": "Trên bên phải",
+      "bottomLeft": "Dưới bên trái",
+      "bottomCenter": "Dưới giữa",
+      "bottomRight": "Dưới bên phải",
+      "show": "Hiện"
+    },
+    "messages": {
+      "success": "Thành công!",
+      "successContent": "Hành động của bạn đã được hoàn thành thành công.",
+      "error": "Lỗi!",
+      "errorContent": "Đã xảy ra sự cố với yêu cầu của bạn.",
+      "warning": "Cảnh báo!",
+      "warningContent": "Vui lòng lưu ý thông báo quan trọng này.",
+      "info": "Thông tin",
+      "infoContent": "Đây là điều bạn có thể muốn biết."
+    }
+  }
+} 

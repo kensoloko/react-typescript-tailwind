@@ -1,0 +1,90 @@
+{
+  "title": "Component Library",
+  "description": "A collection of UI components for use in your application",
+  "banner": {
+    "devModeOnly": "This page is only available in development mode",
+    "backToApp": "Back to App"
+  },
+  "tabs": {
+    "elements": "UI Elements",
+    "buttons": "Buttons",
+    "toasts": "Toasts"
+  },
+  "elements": {
+    "title": "UI Elements",
+    "description": "Basic building blocks for your interface",
+    "card": {
+      "title": "Cards",
+      "basic": "Basic Card",
+      "basicDescription": "Simple container with shadow",
+      "bordered": "Bordered Card",
+      "borderedDescription": "Card with border and shadow"
+    },
+    "input": {
+      "title": "Input Fields",
+      "text": "Text Input",
+      "select": "Select Input",
+      "placeholder": "Enter some text",
+      "option1": "Option 1",
+      "option2": "Option 2",
+      "option3": "Option 3"
+    }
+  },
+  "buttons": {
+    "title": "Buttons",
+    "description": "Interactive elements for user actions",
+    "variants": {
+      "title": "Button Variants",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "tertiary": "Tertiary",
+      "danger": "Danger",
+      "success": "Success"
+    },
+    "sizes": {
+      "title": "Button Sizes",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "states": {
+      "title": "Button States",
+      "default": "Default",
+      "disabled": "Disabled",
+      "withIcon": "With Icon",
+      "loading": "Loading"
+    }
+  },
+  "toasts": {
+    "title": "Toast Notifications",
+    "description": "Temporary notifications to provide feedback",
+    "types": {
+      "title": "Toast Types",
+      "showSuccess": "Show Success",
+      "showError": "Show Error",
+      "showWarning": "Show Warning",
+      "showInfo": "Show Info"
+    },
+    "positions": {
+      "title": "Toast Positions",
+      "description": "Toasts can be displayed in different positions on the screen",
+      "topLeft": "Top Left",
+      "topCenter": "Top Center",
+      "topRight": "Top Right",
+      "bottomLeft": "Bottom Left",
+      "bottomCenter": "Bottom Center",
+      "bottomRight": "Bottom Right",
+      "show": "Show"
+    },
+    "messages": {
+      "success": "Success!",
+      "successContent": "Your action was completed successfully.",
+      "error": "Error!",
+      "errorContent": "There was a problem with your request.",
+      "warning": "Warning!",
+      "warningContent": "Please be aware of this important notice.",
+      "info": "Information",
+      "infoContent": "Here's something you might want to know."
+    }
+  }
+} 

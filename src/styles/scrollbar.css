@@ -1,0 +1,58 @@
+/* Modern, Beautiful Custom Scrollbar CSS */
+
+/* Basic scrollbar styling for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #16101d, #3949ab);
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #363636;
+}
+
+/* Minimal scrollbar variant 
+     Apply this class to specific containers */
+.minimal-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(155, 155, 155, 0.5);
+    border-radius: 4px;
+    border: none;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(155, 155, 155, 0.8);
+}
+
+.minimal-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+/* Hidden scrollbar with scroll functionality 
+     Apply this to elements that should scroll but hide scrollbar */
+.hidden-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.hidden-scrollbar {
+    scrollbar-width: none;
+}

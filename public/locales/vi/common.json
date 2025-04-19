@@ -35,5 +35,10 @@
     "switcher": "Ngôn ngữ",
     "english": "Tiếng Anh",
     "vietnamese": "Tiếng Việt"
+  },
+  "user": {
+    "details": "Thông tin người dùng",
+    "viewingUser": "Bạn đang xem người dùng có ID: {{id}}",
+    "idNote": "ID người dùng được sử dụng để xác định duy nhất người dùng trong hệ thống"
   }
 } 
