@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "Reactjs TypeScript Tailwind",
+    "subtitle": "Ứng dụng React hiện đại"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "dashboard": "Bảng điều khiển",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "home": {
+    "welcome": "Chào mừng đến Trang chủ",
+    "description": "Đây là trang công khai mà bất kỳ ai cũng có thể truy cập"
+  },
+  "unauthorized": {
+    "code": "401",
+    "title": "Truy cập trái phép",
+    "description": "Bạn không có quyền truy cập trang này",
+    "home": "Quay lại Trang chủ"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển",
+    "home": "Quay lại Trang chủ"
+  },
+  "example": {
+    "title": "Thành phần Ví dụ",
+    "description": "Đây là trang ví dụ chỉ dành cho phát triển và kiểm thử",
+    "dev": "Trang này chỉ có sẵn trong môi trường phát triển",
+    "back": "Quay lại Trang chủ"
+  },
+  "language": {
+    "switcher": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  }
+} 

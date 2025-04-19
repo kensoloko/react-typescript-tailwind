@@ -1,28 +1,90 @@
-# React + TypeScript + Vite
+# Reactjs TypeScript Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with TypeScript, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React 19](https://react.dev/) - UI library
+- [TypeScript 5.7](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS framework
+- [Vite 6](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [SWC](https://swc.rs/) - Super-fast JavaScript/TypeScript compiler
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd reactjs-typescirpt-tailwind
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+# Start development server
+npm run dev
+
+# Start development server with production env variables
+npm run dev:prod
+
+# Type checking
+npm run typecheck
+```
+
+### Building for Production
+
+```bash
+# Build for production
+npm run build
+
+# Build with specific environment
+npm run build:dev
+npm run build:prod
+
+# Preview production build
+npm run preview
+```
+
+## Environment Configuration
+
+The project uses environment variables for configuration:
+
+- `.env` - Development environment settings
+- `.env.production` - Production environment settings
+
+Example environment variables:
+
+```
+VITE_API_URL=https://api.example.com
+VITE_ENABLE_ANALYTICS=true
+VITE_DEBUG_MODE=false
+VITE_APP_TITLE=Reactjs Typescript Tailwind
+```
+
+## ESLint Configuration
+
+This project uses ESLint with TypeScript support. For production applications, consider enabling type-aware lint rules:
 
 ```js
 export default tseslint.config({
   extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
     ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
+    // For stricter rules
     ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
+    // For stylistic rules
     ...tseslint.configs.stylisticTypeChecked,
   ],
   languageOptions: {
-    // other options...
     parserOptions: {
       project: ['./tsconfig.node.json', './tsconfig.app.json'],
       tsconfigRootDir: import.meta.dirname,
@@ -31,24 +93,27 @@ export default tseslint.config({
 })
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Folder Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```
+├── public/             # Static assets
+├── src/
+│   ├── assets/         # Project assets
+│   ├── components/     # React components
+│   ├── hooks/          # Custom React hooks
+│   ├── pages/          # Page components
+│   ├── services/       # API services
+│   ├── styles/         # Global styles
+│   ├── types/          # TypeScript type definitions
+│   ├── utils/          # Utility functions
+│   ├── App.tsx         # Application root component
+│   ├── main.tsx        # Entry point
+├── .env                # Development environment variables
+├── .env.production     # Production environment variables
+├── .gitignore          # Git ignore file
+├── index.html          # HTML template
+├── package.json        # Project dependencies
+├── tsconfig.json       # TypeScript configuration
+├── vite.config.ts      # Vite configuration
+└── README.md           # Project documentation
 ```

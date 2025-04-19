@@ -1,0 +1,24 @@
+{
+  "title": "Bảng điều khiển",
+  "welcome": "Chào mừng đến bảng điều khiển của bạn",
+  "description": "Đây là bảng điều khiển cá nhân nơi bạn có thể quản lý mọi thứ.",
+  "stats": {
+    "title": "Thống kê",
+    "users": "Người dùng",
+    "visits": "Lượt truy cập",
+    "revenue": "Doanh thu"
+  },
+  "actions": {
+    "viewProfile": "Xem hồ sơ",
+    "settings": "Cài đặt",
+    "help": "Trợ giúp"
+  },
+  "cards": {
+    "recentActivity": "Hoạt động gần đây",
+    "notifications": "Thông báo",
+    "tasks": "Nhiệm vụ",
+    "quickActions": "Thao tác nhanh"
+  },
+  "back": "Trở về trang chủ",
+  "logout": "Đăng xuất"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome to your dashboard",
+  "description": "This is your personal dashboard where you can manage everything.",
+  "stats": {
+    "title": "Statistics",
+    "users": "Users",
+    "visits": "Visits",
+    "revenue": "Revenue"
+  },
+  "actions": {
+    "viewProfile": "View Profile",
+    "settings": "Settings",
+    "help": "Help"
+  },
+  "cards": {
+    "recentActivity": "Recent Activity",
+    "notifications": "Notifications",
+    "tasks": "Tasks",
+    "quickActions": "Quick Actions"
+  },
+  "back": "Back to Home",
+  "logout": "Logout"
+}
